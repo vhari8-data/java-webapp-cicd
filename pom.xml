@@ -10,6 +10,13 @@
     <version>1.0</version>
     <packaging>war</packaging>
 
+<properties>
+    <sonar.projectKey>my-project</sonar.projectKey>
+    <sonar.host.url>http://54.144.248.97:9000</sonar.host.url>
+    <sonar.login>${env.s-new}</sonar.login>
+</properties>
+
+         
     <build>
         <finalName>simple-jsp-demo</finalName>
     </build>
