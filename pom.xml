@@ -16,6 +16,14 @@
     <sonar.login>${env.SONAR_TOKENS}</sonar.login>
 </properties>
 
+         <distributionManagement>
+        <snapshotRepository>
+            <id>nexus</id>
+            <url>http://34.229.142.67/repository/maven-snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>         
+
+
          
     <build>
         <finalName>simple-jsp-demo</finalName>
