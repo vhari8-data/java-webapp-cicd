@@ -10,13 +10,13 @@
     <version>1.7</version>
     <packaging>war</packaging>
 
-<!--
+
  <properties>
     <sonar.projectKey>my-project</sonar.projectKey>
-    <sonar.host.url>http://65.2.142.245:9000/</sonar.host.url>
-    <sonar.login>${env.SONAR_TOKEN}</sonar.login>
+    <sonar.host.url>http://65.0.26.189:9000/</sonar.host.url>
+    <sonar.login>${env.sonar-token}</sonar.login>
 </properties> 
--->
+
         
 
 
