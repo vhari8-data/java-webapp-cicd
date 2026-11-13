@@ -34,12 +34,10 @@
         <url>http://13.203.216.168:8081/repository/maven-snapshots</url>
     </snapshotRepository>
 </distributionManagement>
-         
 
+<build>
+    <finalName>simple-jsp-demo</finalName>
 
-         
-    <build>
-        <finalName>simple-jsp-demo</finalName>
     <plugins>
         <plugin>
             <groupId>org.sonarsource.scanner.maven</groupId>
@@ -47,6 +45,7 @@
             <version>5.5.0.6356</version>
         </plugin>
     </plugins>
-             
-    </build>
+</build>
+
+         
 </project>
