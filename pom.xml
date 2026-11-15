@@ -20,19 +20,18 @@
 
 
 
-<!--
 <distributionManagement>
-    <repository>
+   <!-- <repository>
         <id>nexus</id>
         <url>http://13.203.216.168:8081/repository/maven-releases</url>
-    </repository>
+    </repository>  -->
 
     <snapshotRepository>
         <id>nexus</id>
-        <url>http://13.203.216.168:8081/repository/maven-snapshots</url>
+        <url>http://13.201.65.184:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
-         -->
+         
 
 <build>
     <finalName>simple-jsp-demo</finalName>
